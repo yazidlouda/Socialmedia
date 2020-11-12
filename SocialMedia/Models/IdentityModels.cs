@@ -45,10 +45,10 @@ namespace SocialMedia.Models
         {
             return new ApplicationDbContext();
         }
-       // public DbSet<Post> Post { get; set; }
-        //public DbSet<Like> Like { get; set; }
-       public DbSet<Comment> Comment { get; set; }
-        //public DbSet<Reply> Reply { get; set; }
+        public DbSet<Post> Post { get; set; }
+        public DbSet<Like> Like { get; set; }
+        public DbSet<Comment> Comment { get; set; }
+        public DbSet<Reply> Reply { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
