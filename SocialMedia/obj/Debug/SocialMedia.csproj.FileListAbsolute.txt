@@ -1,0 +1,2 @@
+C:\ElevenFiftyProjects\DotNetProjects\SocialMedia\Socialmedia\SocialMedia\obj\Debug\SocialMedia.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\DotNetProjects\SocialMedia\Socialmedia\SocialMedia\obj\Debug\SocialMedia.csproj.CoreCompileInputs.cache
