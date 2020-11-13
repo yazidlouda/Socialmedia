@@ -35,10 +35,7 @@ namespace SocialMedia.Models
             HasKey(iur => iur.UserId);
         }
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 5c18da63719e34fd14e79af7b0f1e61b7c686aa0
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
@@ -50,25 +47,16 @@ namespace SocialMedia.Models
             return new ApplicationDbContext();
         }
         public DbSet<Post> Post { get; set; }
-<<<<<<< HEAD
-        public DbSet<Like> Like { get; set; }
+
+       // public DbSet<Like> Like { get; set; }
         public DbSet<Comment> Comment { get; set; }
-        public DbSet<Reply> Reply { get; set; }
-=======
-        //public DbSet<Like> Like { get; set; }
-        //public DbSet<Comment> Comment { get; set; }
         //public DbSet<Reply> Reply { get; set; }
 
->>>>>>> 5c18da63719e34fd14e79af7b0f1e61b7c686aa0
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
                 .Conventions
                 .Remove<PluralizingTableNameConvention>();
-<<<<<<< HEAD
-=======
-
->>>>>>> 5c18da63719e34fd14e79af7b0f1e61b7c686aa0
             modelBuilder
                 .Configurations
                 .Add(new IdentityUserLoginConfiguration())
